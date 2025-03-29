@@ -1,13 +1,13 @@
 task.spawn(function()
     script_key = "dUMocdSCKIChVxPwUeVgJHtCzRzSorwB"
     getgenv().Config = {
-        ["PetFarmAutoSwitchFullGrown"] = false,
+        ["PetFarmAutoSwitchFullGrown"] = true,
         ["PetFarmActive"] = false,
-        ["EggFarmActive"] = true,
+        ["EggFarmActive"] = false,
         ["Blur_username"] = false,
         ["Blazing_Lion_Log"] = false,
-        ["DiscordId"] = "1346793756078247936",
-        ["Webhook"] = "https://discord.com/api/webhooks/1346793756078247936/Rvwwe9cvn6aEF6iply54WX9iLFvsZqCWmkYZouDEbyam5vcP6_wQRCxoIcwfoogucubu",
+        ["DiscordId"] = "755475944252112976",
+        ["Webhook"] = "https://discord.com/api/webhooks/1332692438900543551/t30M2e97XHKbIKwtdDeKB5qRq1HyIIZ-vJ9lstYjtaHXdqrQZXeFbSxREKedRW19ejMD",
     }
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/66567bfd337b57eb059b58dbe1badb89.lua"))()
 end)
