@@ -3,7 +3,7 @@ task.spawn(function()
     getgenv().Config = {
         ["PetFarmAutoSwitchFullGrown"] = true,
         ["PetFarmActive"] = false,
-        ["EggFarmActive"] = false,
+        ["EggFarmActive"] = true,
         ["Blur_username"] = false,
         ["Blazing_Lion_Log"] = false,
         ["DiscordId"] = "755475944252112976",
