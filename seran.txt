@@ -1,7 +1,7 @@
 task.spawn(function()
     script_key = "dUMocdSCKIChVxPwUeVgJHtCzRzSorwB"
     getgenv().Config = {
-        ["PetFarmAutoSwitchFullGrown"] = false,
+        ["PetFarmAutoSwitchFullGrown"] = true,
         ["PetFarmActive"] = false,
         ["EggFarmActive"] = true,
         ["Blur_username"] = false,
