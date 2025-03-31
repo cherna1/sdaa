@@ -8,7 +8,7 @@ Config = {
         EggType = "moon_2025_egg", -- Egg to farm: cracked, royal, etc.
         SelectFarmEgg = "moon_2025_egg",  -- "any" = all eggs, or specify one
         BuyEggs = true,  -- Auto-buy eggs if needed
-        AutoAgePotionEnabled = false, -- Use age potions for faster growth
+        AutoAgePotionEnabled = true, -- Use age potions for faster growth
         AutoAgePotionPets = { "moon_2025_puptune", "moon_2025_sunglider", "moon_2025_starmite", "moon_2025_dimension_drifter" }, -- Pets that get age potions
         ExcludedTasks = {  
             Enabled = false, -- If true, skips listed tasks
