@@ -13,7 +13,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    task.wait(20)
+    task.wait(10)
     for i = 1,100 do task.wait()
         local args = {
             [1] = "pets",
